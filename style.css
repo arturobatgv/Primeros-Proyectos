@@ -1,0 +1,347 @@
+body{
+    font-family: 'Pathway Extreme', sans-serif;
+}
+header{
+
+    background-color: #BBBBBB;
+    padding: 70px;
+}
+#logo{
+
+    width: 40%;
+    display: inline-block;
+
+}
+
+.menu{
+
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+
+    position: absolute;
+    top: 10px;
+    right: 2%;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+
+    color: #f8f32b;
+    text-decoration: overline;
+}
+
+.imagenes{
+    width: 40%;    
+    padding: 10px;
+}
+
+.saberMas{
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    padding: 70px;
+}
+.saberMas li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;    
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px dashed #000000;
+    border-radius: 50px;
+}
+
+.saberMas li:hover{
+    border-color: #f3d500;
+}
+.saberMas li:active{
+    
+    border-color: #f35000;
+}
+.saberMas h2{
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.saberMas li:hover h2{
+
+    font-size: 35px;
+}
+.parrafoUno{
+
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.parrafoDos{
+
+    font-size: 16px;   
+    margin-top: 10px;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+}
+
+footer{
+    padding: 5%;
+    background-color: #000000;
+    text-align: center;
+}
+footer img{
+    padding: 10px;
+    width: 20%;
+}
+
+.copyright{
+    font-size: 13px;
+    color: #ffffff;
+}
+
+form {
+margin: 40px 0;
+
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.inputPadron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 30px;
+    width: 50%;
+
+}
+
+#checkbox{
+    margin: 20px 0;
+}
+
+
+
+.enviar{
+    width: 40%;
+    padding: 18px;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    background-color: #ffEE58;
+    border: none;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color:  #000000;
+    color: white;
+    transform: scale(1.10);
+
+}
+
+table{
+    
+    margin: 40px 70px;
+    text-align: center;
+}
+
+thead{
+    
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    
+}
+
+
+select{
+    padding: 5px;
+    width: 150px;
+    margin: 6px 0px 20px 25px;
+    background-color: #ffEE58;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+select:hover{
+    border: 2px solid #000000;
+    transform: scale(1.05);
+}
+/*CSS para HOME */
+#banner{
+width: 100%;
+}
+
+.contenido{
+    padding: 2em;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    font-weight: bold;
+    clear: left;
+    text-shadow: 2px 2px black;
+}
+
+.tituloPrincipal::first-letter{
+
+    font-size: 2em;
+}
+
+#inicioParrafo{
+
+    margin: 40px 0 1em 0;
+
+}
+.contenido p{
+    margin: 0 0 1em;
+
+}
+
+.contenido strong{
+
+    font-weight: bold;
+}
+
+.contenido em{
+    font-style: italic;
+}
+
+.ruzarinCostado{
+    width: 90px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    text-align: center;
+    background: linear-gradient(#FEFEFE,#ddd8d8);
+}
+
+.mapa p{
+    margin: 0 0 2em;
+}
+
+.maps{
+
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.diferenciales{
+    padding: 3em;
+    background: #ddd8d8;
+}
+.contenidoDiferenciales{
+width: 680px;
+margin: 0 auto;
+}
+
+.listaDiferenciales{
+    width: 60%;
+    display: inline-block;
+    
+}
+
+.listaDiferenciales li{
+    width: 70%;
+    padding: 15px;
+    
+}
+
+.listaDiferenciales li:nth-child(n){
+    font-weight: bold;
+
+}
+
+.listaDiferenciales li::before{
+    content: "❂";
+    
+}
+
+.imagenDiferenciales {
+    width: 40%;
+    vertical-align: top;    
+    transition: 400ms;  
+    box-shadow: 10px 10px 30px 25px #000000;  
+}
+
+.imagenDiferenciales:hover{
+    opacity: 0.3;
+
+}
+.video{
+  width: 560px;   
+  margin: 5em auto 0 auto;
+}
+
+@media screen and (max-width:480px){
+    header{
+
+        padding: 20px;
+    }
+    #logo{
+        width: 80%;
+        margin: 0 0 20px 0;
+
+    }
+    h1{
+        text-align: center;
+    
+    }
+    nav{
+        
+       position: static; 
+    }
+.menu, .contenido, .maps, .contenidoDiferenciales, .video{
+    width: auto;
+}
+
+.listaDiferenciales, .imagenDiferenciales{
+    width: 100%;
+    margin: 20px;
+}
+
+}

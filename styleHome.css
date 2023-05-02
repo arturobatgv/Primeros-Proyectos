@@ -1,0 +1,46 @@
+.tituloInicial{
+
+    padding-left: 40px;
+}
+
+#banner{
+    width: 500px;
+    padding-left: 28%;
+}
+    .tituloCentralizado{
+    text-align: center;
+    }
+        p{
+            text-align: center;
+        }
+            em strong{
+                color: red;
+            }
+                #logros{
+
+                    font-size: 20px;
+
+                }
+                    .contenido{
+
+                    background-color: #CCCCCC;
+                    padding: 20px;
+                    }  
+                       .diferenciales{
+                           background-attachment: #ffffff;
+                           padding: 30px;
+                       }   
+                            .items{
+                               font-style: italic;
+                               margin-left: 60px;
+                            }     
+                                ul{
+                                    display: inline-block;
+                                    vertical-align: top;
+                                    width: 20%;
+                                    margin-right: 15%;
+                                }
+                                    .imagenDiferenciales{
+                                       width: 35%;
+                                    }
+                        
